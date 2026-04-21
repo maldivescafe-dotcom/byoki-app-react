@@ -99,7 +99,7 @@ export function CprScreen({ lang, onBack, onLang }: Props) {
           <div className="cpr-img-wrap">
             <img
               ref={imgRef}
-              src="/cpr-guide.jpg"
+              src={`${import.meta.env.BASE_URL}cpr-guide.jpg`}
               alt="胸骨圧迫の位置"
               className="cpr-guide-img"
               onLoad={positionCircle}
